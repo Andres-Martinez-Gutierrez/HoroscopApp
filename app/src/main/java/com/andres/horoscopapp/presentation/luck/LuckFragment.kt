@@ -4,7 +4,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.andres.horoscopapp.databinding.FragmentLuckBinding
 import com.andres.horoscopapp.presentation.utils.VBBaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LuckFragment : VBBaseFragment<FragmentLuckBinding>() {
 
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentLuckBinding
